@@ -10,5 +10,6 @@ from rest_framework.response import Response
 def getRoutes(request):
     return Response("Hello")
 
+@api_view(['GET'])
 def getProducts(request):
-    return JsonResponse(products, safe=False)
+    return Response(products)
