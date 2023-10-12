@@ -130,6 +130,8 @@ STATICFILES_DIR = [
     BASE_DIR / 'static'
 ]
 
+MEDIA_ROOT = 'static/images'
+
 
 CORS_ALLOW_ALL_ORIGINS = True
 
