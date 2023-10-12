@@ -8,6 +8,7 @@ const reducer = combineReducers({
     productList: productListReducer,
 })
 
+
 const initialState = {}
 
 const middleware = [thunk]
