@@ -31,10 +31,6 @@ class MyTokenObtainPairView(TokenObtainPairView):
 
 
 @api_view(['GET'])
-def getRoutes(request):
-    return Response("Hello")
-
-@api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def getUserProfile(request):
     user = request.user
